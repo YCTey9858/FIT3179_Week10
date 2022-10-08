@@ -37,8 +37,8 @@ Benin,UHC index of essential service coverage,2017,40
 Benin,UHC index of essential service coverage,2015,40
 Bhutan,UHC index of essential service coverage,2017,62
 Bhutan,UHC index of essential service coverage,2015,59
-Bolivia (Plurinational State of),UHC index of essential service coverage,2017,68
-Bolivia (Plurinational State of),UHC index of essential service coverage,2015,64
+Bolivia,UHC index of essential service coverage,2017,68
+Bolivia,UHC index of essential service coverage,2015,64
 Bosnia and Herzegovina,UHC index of essential service coverage,2017,61
 Bosnia and Herzegovina,UHC index of essential service coverage,2015,60
 Botswana,UHC index of essential service coverage,2017,61
@@ -153,8 +153,8 @@ India,UHC index of essential service coverage,2017,55
 India,UHC index of essential service coverage,2015,52
 Indonesia,UHC index of essential service coverage,2017,57
 Indonesia,UHC index of essential service coverage,2015,53
-Iran (Islamic Republic of),UHC index of essential service coverage,2017,72
-Iran (Islamic Republic of),UHC index of essential service coverage,2015,70
+Iran,UHC index of essential service coverage,2017,72
+Iran,UHC index of essential service coverage,2015,70
 Iraq,UHC index of essential service coverage,2017,61
 Iraq,UHC index of essential service coverage,2015,61
 Ireland,UHC index of essential service coverage,2017,76
@@ -213,8 +213,8 @@ Mauritius,UHC index of essential service coverage,2017,63
 Mauritius,UHC index of essential service coverage,2015,62
 Mexico,UHC index of essential service coverage,2017,76
 Mexico,UHC index of essential service coverage,2015,76
-Micronesia (Federated States of),UHC index of essential service coverage,2017,47
-Micronesia (Federated States of),UHC index of essential service coverage,2015,44
+Micronesia,UHC index of essential service coverage,2017,47
+Micronesia,UHC index of essential service coverage,2015,44
 Mongolia,UHC index of essential service coverage,2017,62
 Mongolia,UHC index of essential service coverage,2015,62
 Montenegro,UHC index of essential service coverage,2017,68
@@ -261,16 +261,16 @@ Portugal,UHC index of essential service coverage,2017,82
 Portugal,UHC index of essential service coverage,2015,81
 Qatar,UHC index of essential service coverage,2017,68
 Qatar,UHC index of essential service coverage,2015,69
-Republic of Korea,UHC index of essential service coverage,2017,86
-Republic of Korea,UHC index of essential service coverage,2015,85
+South Korea,UHC index of essential service coverage,2017,86
+South Korea,UHC index of essential service coverage,2015,85
 Republic of Moldova,UHC index of essential service coverage,2017,69
 Republic of Moldova,UHC index of essential service coverage,2015,68
 The former Yugoslav Republic of Macedonia,UHC index of essential service coverage,2017,72
 The former Yugoslav Republic of Macedonia,UHC index of essential service coverage,2015,70
 Romania,UHC index of essential service coverage,2017,74
 Romania,UHC index of essential service coverage,2015,73
-Russian Federation,UHC index of essential service coverage,2017,75
-Russian Federation,UHC index of essential service coverage,2015,71
+Russia,UHC index of essential service coverage,2017,75
+Russia,UHC index of essential service coverage,2015,71
 Rwanda,UHC index of essential service coverage,2017,57
 Rwanda,UHC index of essential service coverage,2015,54
 Saint Lucia,UHC index of essential service coverage,2017,68
@@ -343,8 +343,8 @@ Ukraine,UHC index of essential service coverage,2017,68
 Ukraine,UHC index of essential service coverage,2015,65
 United Arab Emirates,UHC index of essential service coverage,2017,76
 United Arab Emirates,UHC index of essential service coverage,2015,72
-United Kingdom of Great Britain and Northern Ireland,UHC index of essential service coverage,2017,87
-United Kingdom of Great Britain and Northern Ireland,UHC index of essential service coverage,2015,85
+United Kingdom,UHC index of essential service coverage,2017,87
+United Kingdom,UHC index of essential service coverage,2015,85
 United Republic of Tanzania,UHC index of essential service coverage,2017,43
 United Republic of Tanzania,UHC index of essential service coverage,2015,41
 United States of America,UHC index of essential service coverage,2017,84
@@ -355,8 +355,8 @@ Uzbekistan,UHC index of essential service coverage,2017,73
 Uzbekistan,UHC index of essential service coverage,2015,72
 Vanuatu,UHC index of essential service coverage,2017,48
 Vanuatu,UHC index of essential service coverage,2015,49
-Venezuela (Bolivarian Republic of),UHC index of essential service coverage,2017,74
-Venezuela (Bolivarian Republic of),UHC index of essential service coverage,2015,73
+Venezuela,UHC index of essential service coverage,2017,74
+Venezuela,UHC index of essential service coverage,2015,73
 Viet Nam,UHC index of essential service coverage,2017,75
 Viet Nam,UHC index of essential service coverage,2015,73
 Yemen,UHC index of essential service coverage,2017,42
