@@ -4,7 +4,7 @@
   "title": "Crude suicide rates per 100,000 population in the World",
   "width": 500,
   "data": {
-    "url": "https://raw.githubusercontent.com/YCTey9858/FIT3179_Week9/main/data/crudeSuicideRates.csv"
+    "url": "https://raw.githubusercontent.com/YCTey9858/FIT3179_Week10/main/data/crudeSuicideRates.csv"
   },
   "params": [
     {
