@@ -1,8 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": "World Universal Health Coverage Index of Service Coverage",
-  "width": "container",
-  "height": "container",
+  "width": 400,
+  "height": 200,
   "background": "lightblue",
   "projection": {"type": "equirectangular"},
   "data": {
