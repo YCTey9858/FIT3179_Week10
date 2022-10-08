@@ -2,7 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "description": "Vega-Lite version of bar chart from https://observablehq.com/@d3/learn-d3-scales.",
   "title": "Crude suicide rates per 100,000 population in the World",
-  "width": 500,
+  "width": 200,
   "data": {
     "url": "https://raw.githubusercontent.com/YCTey9858/FIT3179_Week10/main/data/crudeSuicideRates.csv"
   },
