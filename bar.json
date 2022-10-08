@@ -1,0 +1,80 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Vega-Lite version of bar chart from https://observablehq.com/@d3/learn-d3-scales.",
+  "title": "Crude suicide rates per 100,000 population in the World",
+  "width": 500,
+  "data": {
+    "url": "https://raw.githubusercontent.com/YCTey9858/FIT3179_Week9/main/data/crudeSuicideRates.csv"
+  },
+  "params": [
+    {
+      "name": "Year",
+      "value": 2016,
+      "bind": {
+        "input": "select",
+        "options": [2016, 2015, 2010, 2005, 2000],
+        "labels": ["2016", "2015", "2010", "2005", "2000"],
+        "name": "Year Selection: "
+      }
+    }
+  ],
+  "transform": [
+    {"filter": "datum.Period == Year"},
+    {"filter": "datum.Dim1 == \"Both sexes\""},
+    {
+      "calculate": "datum['First Tooltip']",
+      "as": "Crude suicide rates per 100,000 population"
+    }
+  ],
+  "encoding": {
+    "color": {
+      "field": "Crude suicide rates per 100,000 population",
+      "scale": {"range": ["white", "red"]}
+    },
+    "y": {
+      "field": "Location",
+      "type": "nominal",
+      "sort": "-x",
+      "title": "Country"
+    },
+    "x": {
+      "aggregate": "sum",
+      "field": "Crude suicide rates per 100,000 population",
+      "type": "quantitative",
+      "title": null,
+      "scale": {"domain": [0, 70]},
+      "axis": null
+    }
+  },
+  "layer": [
+    {
+      "mark": "bar",
+      "encoding": {
+        "color": {
+          "field": "Crude suicide rates per 100,000 population",
+          "type": "quantitative",
+          "title": "Crude suicide rates"
+        },
+        "tooltip": [
+          {"field": "Location", "type": "nominal", "title": "Country"},
+          {
+            "field": "Crude suicide rates per 100,000 population",
+            "type": "quantitative",
+            "title": "Crude suicide rates per 100,000 population"
+          }
+        ]
+      }
+    },
+    {
+      "mark": {"type": "text", "align": "left", "xOffset": 5, "aria": false},
+      "encoding": {
+        "text": {
+          "field": "Crude suicide rates per 100,000 population",
+          "type": "quantitative"
+        },
+        "color": {"value": "black"}
+      }
+    }
+  ],
+  "config": {}
+}
